@@ -1,0 +1,16 @@
+{
+  "name": "rescript-vanilla",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./src/app.bs.js",
+    "res:build": "rescript",
+    "res:start": "rescript build -w",
+    "res:clean": "rescript clean"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "rescript": "^10.0.1"
+  }
+}
