@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "nodemon ./lib/js/src/app.bs.js",
+    "dev": "nodemon",
     "res:build": "rescript",
     "res:start": "rescript build -w",
     "res:clean": "rescript clean"
