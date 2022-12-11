@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon ./src/app.bs.js",
+    "start": "nodemon ./lib/js/src/app.bs.js",
     "res:build": "rescript",
     "res:start": "rescript build -w",
     "res:clean": "rescript clean"

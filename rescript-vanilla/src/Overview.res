@@ -111,14 +111,14 @@ let () = {
   ()
 }
 
-let _ = user => {
-  <div>
-    {
-      let u = user->Js.String.toLowerCase
-      true ? `Hello ${u}`->React.string : React.null
-    }
-  </div>
-}
+// let _ = user => {
+//   <div>
+//     {
+//       let u = user->Js.String.toLowerCase
+//       true ? `Hello ${u}`->React.string : React.null
+//     }
+//   </div>
+// }
 
 // data first pipe
 // ->
