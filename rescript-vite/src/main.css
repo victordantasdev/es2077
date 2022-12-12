@@ -1,0 +1,16 @@
+html,
+body,
+#root {
+  padding: 0;
+  margin: 0;
+  background: #fafafa;
+}
+
+* {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.main-container {
+  text-align: center;
+  color: #373737;
+}
