@@ -11,6 +11,19 @@ body,
 }
 
 .main-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
-  color: #373737;
+  color: #fff;
+  background-color: #373737;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }
